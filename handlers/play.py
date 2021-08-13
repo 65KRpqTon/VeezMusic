@@ -658,8 +658,6 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton("⏺ Menu", callback_data="menu"),
                     InlineKeyboardButton("🗑 Close", callback_data="cls"),
-                ],[
-                    InlineKeyboardButton("📣 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],
             ]
             )
@@ -756,8 +754,6 @@ async def lol_cb(b, cb):
                 [
                     InlineKeyboardButton("⏺ Menu", callback_data="menu"),
                     InlineKeyboardButton("🗑 Close", callback_data="cls"),
-                ],[
-                    InlineKeyboardButton("📣 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],
             ]
     )
